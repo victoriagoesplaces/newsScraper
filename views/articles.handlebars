@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="row">
+    <div class ="col s12">
+      {{#each article}}
+        <div class="card-panel center">
+          <h4>{{this.title}}</h4>
+          <a href = "/readArticle/{{this._id}}" class="waves-effect waves-light btn" id="readMore">Read More</a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
